@@ -9,7 +9,7 @@ Run the app:
 ```npm run dev```
 
 ## Potential areas for improvement
-There are several areas that could be worked as the current solution is not fine-tuned but would instead provide a platform and structure to additional development.
+There are several areas that could be worked as the current solution is not fine-tuned but would instead provide a platform and structure to further development.
 
 ### Code structure
 The HeroBrowser-component which renders the main view of the application could be divided even further by separating the deck selection to it's own component. This could be beneficial if more functionality is added to prevent the component to become too bloated.
@@ -19,3 +19,6 @@ Currently the app is not optimized to be displayed in mobile devices. Screen siz
 
 ### UX
 User should get feedback if the deck is not found or something else goes wrong while fetching the heroes.
+
+### Hero modal
+Hero modal could display more information about the hero in addition to the hero's card and description.
